@@ -13,6 +13,8 @@ public class Main {
         for (int i = 0; i < 8; i++) {
             ranNumber = ranNum.nextInt(100);//creates a random number between 1 and 100
             numList.add(ranNumber);
-        }System.out.println(numList);
+        }
+        System.out.println(numList);
+        System.out.println(numList.get(ranNum.nextInt(numList.size())));
     }
 }
